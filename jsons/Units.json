@@ -4,7 +4,7 @@
 		"unitType": "Civilian",
 		"replaces": "Settler",
 		"uniqueTo": "Dutch Empire",
-		"movement": 8,
+		"movement": 3,
 		"cost": 350,
 		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>",
