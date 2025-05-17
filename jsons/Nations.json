@@ -1,38 +1,29 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Dutch Empire",
+		"leaderName": "William of Orange",
+		"adjective": ["Dutch"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		"personality": "William of Orange",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+        "startIntroPart1": "Greetings to the wise and brave Prince William of Orange, who freed the Netherlands and gave strength to the Dutch people. In 1568, you led a rebellion against Spanish dominion, to gain freedom for your people, and therefore starting the Eighty Years' War. Your actions were all aimed to create one of Europe's first modern republics, the Seven United Provinces. The rebellion was the meaning of your very life and death, as it was also the cause of your assassination in 1584. But your death has given even more pride and courage to your people, to fight for liberty against any oppressors. Carved in history as the 'Father of the Fatherland', your name is a symbol of Dutch independence for eternity.",
+        "startIntroPart2": "Brave Prince, your people ask for your wisdom to gain its freedom once more, and to illuminate the world with progressive and modern ideas. Will your new empire shine through the ages of history?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+        "declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
+		"attacked": "You call yourself an exalted ruler, but I see nothing more than a smartly dressed barbarian!",
+		"defeated": "My God, be merciful to my soul. My God, feel pity for this... my poor people!",
+		"introduction": "I am William of Orange, stadtholder of The Netherlands. Did you need anything? I still have a lot to do.",
+		"neutralHello": "Once again, greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I believe I have something that may be of some importance to you.",
+		"outerColor": [216, 120, 0],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Dutch East India Company",
+		"uniques": ["Allied City-States provide [Gold] equal to [+50]% of what they produce for themselves <in [capital] cities>",
+			    "[+1 Food, +1 Gold] from [Coast] tiles [in all cities]", "[Great Merchant] is earned [50]% faster"],
+		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "The Hague", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
+        "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
+    },
 ]
