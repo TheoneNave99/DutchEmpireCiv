@@ -11,12 +11,10 @@
 	},
 	{
 		"name": "Early Stock Trader",
-		"replaces": "Bank",
 		"uniqueTo": "Dutch Empire",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
-		"percentStatBonus": {"gold": 40},
-		"cost": 100,
+		"percentStatBonus": {"gold": 10},
+		"cost": 200,
 		"uniques": ["[+1 Gold] per [4] population [in this city]"]
 		"requiredTech": "Banking"
 	},
