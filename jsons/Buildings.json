@@ -1,10 +1,10 @@
 [
-	{
+{
 		"name": "Tulip Trader",
 		"replaces": "Market",
 		"uniqueTo": "Dutch Empire",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"percentStatBonus": {"gold": 35},
 		"cost": 50,
 		"requiredTech": "Currency"
@@ -13,9 +13,70 @@
 		"name": "Early Stock Trader",
 		"uniqueTo": "Dutch Empire",
 		"gold": 2,
-		"percentStatBonus": {"gold": 10},
-		"cost": 200,
-		"uniques": ["[+1 Gold] per [4] population [in this city]"]
+		"greatPersonPoints": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
+		"cost": 150,
+		"uniques": ["[+1 Gold] per [4] population [in this city]", "[+5]% [Gold] [in all cities]"]
 		"requiredTech": "Banking"
+	},
+	{
+		"name": "Land Reclaimation I",
+		"uniqueTo": "Dutch Empire",
+		"food": 2,
+		"production": 2,
+		"happiness": 2,
+		"maintenance": 2,
+		"percentStatBonus": {"food": 5},
+		"cost": 200,
+		"uniques": ["Must be next to [Coast]"]
+		"requiredBuilding": "Lighthouse",
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Land Reclaimation II",
+		"uniqueTo": "Dutch Empire",
+		"food": 2,
+		"production": 1,
+		"happiness": 1,
+		"maintenance": 3,
+		"percentStatBonus": {"food": 5},
+		"cost": 300,
+		"uniques": ["Must be next to [Coast]"]
+		"requiredBuilding": "Land Reclaimation I",
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Land Reclaimation III",
+		"uniqueTo": "Dutch Empire",
+		"food": 5,
+		"production": 1,
+		"happiness": 1,
+		"maintenance": 3,
+		"percentStatBonus": {"food": 10},
+		"greatPersonPoints": {"Great Engineer": 1},
+		"cost": 400,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] per [5] population [in this city]"]
+		"requiredBuilding": "Land Reclaimation II",
+		"requiredTech": "Navigation"
+	},
+{
+		"name": "Expedition Shares",
+		"uniqueTo": "Dutch Empire",
+		"happiness": 1,
+		"maintenance": 1,
+		"cost": 400,
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]", "[+1 Production] from [Forest] tiles [in this city]",
+			    "[+25]% Production when constructing [Settler] units [in this city]", "[+25]% Production when constructing [Worker] units [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Colony Shares",
+		"uniqueTo": "Dutch Empire",
+		"happiness": 2,
+		"maintenance": 2,
+		"cost": 500,
+		"uniques": ["[+2]% [Gold] [in all cities]", "[+1 Production] from [Forest] tiles [in this city]",
+			    "[+25]% Production when constructing [Settler] units [in this city]", "[+25]% Production when constructing [Worker] units [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Astronomy"
 	},
 ]
