@@ -125,7 +125,7 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 200,
-		"promotions": ["Ignore terrain cost", "Medic I"],
+		"promotions": ["Ignore terrain cost"],
 		"requiredTech": "Rifling",
                 "obsoleteTech": "Replaceable Parts", 
 		"upgradesTo": "Great War Infantry",
