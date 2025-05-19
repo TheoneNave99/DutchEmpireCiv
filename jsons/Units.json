@@ -5,9 +5,18 @@
 		"replaces": "Settler",
 		"uniqueTo": "Dutch Empire",
 		"movement": 3,
-		"cost": 350,
-		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			    "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+		"cost": 300,
+		"uniques": ["Founds a new city <by consuming this unit>","Can instantly construct a [Customs house] improvement <[3] times> <after which this unit is consumed>", 
+			    "Cannot be purchased"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Dutch Magnate",
+		"unitType": "Civilian",
+		"uniqueTo": "Dutch Empire",
+		"movement": 3,
+		"cost": 300,
+		"uniques": ["Can instantly construct a [Manufactory] improvement <[2] times> <after which this unit is consumed>", 
 			    "Cannot be purchased"],
 		"hurryCostModifier": 20
 	},
@@ -15,11 +24,11 @@
 		"name": "Envoy",
 		"unitType": "Scout",
 		"uniqueTo": "Dutch Empire",
-		"movement": 4,
+		"movement": 5,
 		"strength": 19,
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Astronomy",
-		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence"],
 		"promotions": ["Ignore terrain cost", "Survivalism I", "Scouting I"],
 		"attackSound": "nonmetalhit"
 	},
@@ -30,7 +39,7 @@
 		"uniqueTo": "Dutch Empire",
 		"movement": 2,
 		"strength": 16,
-		"cost": 45,
+		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[+33]% Strength <when defending>"],
 		"promotions": ["Home Sweet Home"]
@@ -42,7 +51,7 @@
 		"unitType": "Mounted",
 		"replaces": "Lancer",
 		"uniqueTo": "Dutch Empire",
-		"movement": 3,
+		"movement": 4,
 		"strength": 19,
 		"cost": 185,
 		"requiredTech": "Gunpowder",
@@ -50,8 +59,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>",
 		 	    "[+50]% Strength <when attacking>"],
 		"promotions": ["Shock I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
 	},
 	{
@@ -82,5 +90,60 @@
 		"uniques": ["May capture killed [Water] units"],
 		"promotions": ["Coastal Raider I", "Supply"],
 		"attackSound": "cannon"
+	},
+	   {
+		"name": "Dutch Line Infantry",
+		"unitType": "Gunpowder",
+	   	"replaces": "Rifleman",
+		"uniqueTo": "Dutch Empire",
+		"movement": 2,
+		"strength": 30,
+		"cost": 175,
+		"requiredTech": "Rifling",
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	   }
+	  {
+		"name": "Dutch Light Infantry",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Dutch Empire",
+		"movement": 4,
+		"strength": 25,
+		"cost": 200,
+		"uniques": ["[+1] Sight"]
+		"promotions": ["Ignore terrain cost", "Drill I"],
+		"requiredTech": "Rifling",
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+   },
+	{
+		"name": "Surgeon",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Dutch Empire",
+		"movement": 2,
+		"strength": 25,
+		"cost": 200,
+		"promotions": ["Ignore terrain cost", "Medic I"],
+		"requiredTech": "Rifling",
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	   }
+	{
+		"name": "Grand Marshal",
+		"unitType": "Mounted",
+		"uniqueTo": "Dutch Empire",
+		"movement": 5,
+		"strength": 38,
+		"cost": 750,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Sentry"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "[+15]% Strength bonus for [Military] units within [5] tiles",
+			    "All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can instantly construct a [Citadel] improvement <[3] times> <after which this unit is consumed>"],
+		"attackSound": "horse"
 	},
 ]
